@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /images/
+Disallow: /includes/
+Disallow: /lib/
+Disallow: /layouts/
+Disallow: /javascripts/
+Disallow: /pages/
+Disallow: /stylesheets/
+Disallow: /config/
