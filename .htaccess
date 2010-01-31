@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteCond $1 !^(index.php|stylesheets|images|javascripts)
+RewriteRule ^(.+)$ /index.php?page=$1 [L]
+
